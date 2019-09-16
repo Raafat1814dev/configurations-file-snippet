@@ -1,0 +1,32 @@
+{
+  "name": "configs-snippets",
+  "displayName": "configs-snippets",
+  "description": "create a configration snippet for tools like gulp",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raafat1814dev/configurations-file-snippet"
+  },
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
